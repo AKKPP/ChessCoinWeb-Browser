@@ -1,0 +1,85 @@
+{
+  "name": "ChessCoinWeb",
+  "vendor": "OleksandrAAA",
+  "appId": "com.chesscoin.browser.alpha",
+  "binaryName": "ChessCoinWeb",
+  "version": {
+    "product": "firefox",
+    "version": "118.0.2"
+  },
+  "buildOptions": {
+    "generateBranding": true
+  },
+  "addons": {
+    "ublock": {
+      "platform": "github",
+      "id": "uBlock0@raymondhill.net",
+      "repo": "gorhill/uBlock",
+      "version": "1.52.3b6",
+      "fileGlob": "uBlock0_1.52.3b6.firefox.signed.xpi"
+    },
+    "tabliss": {
+      "platform": "amo",
+      "id": "extension@tabliss.io",
+      "amoId": "850407",
+      "version": "2.6.0"
+    },
+    "firefox-qr-generator": {
+      "id": "qr-generator@browser.fushra.com",
+      "platform": "github",
+      "repo": "pulse-browser/firefox-qr-generator",
+      "version": "v0.1.0",
+      "fileGlob": "release.zip"
+    },
+    "sidebar-tabs": {
+      "id": "sidebartabs@browser.fushra.com",
+      "platform": "github",
+      "repo": "pulse-browser/sidebar-tabs",
+      "version": "v0.5.0",
+      "fileGlob": "release.zip"
+    }
+  },
+  "brands": {
+    "stable": {
+      "backgroundColor": "#2B2A33",
+      "brandShorterName": "ChessCoinWeb",
+      "brandShortName": "ChessCoinWeb",
+      "brandFullName": "ChessCoin 0.32% WebBrowser",
+      "release": {
+        "displayVersion": "1.0.0",
+        "github": {
+          "repo": "OleksandrAAA/ChessCoinWeb-Firefox"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    },
+    "alpha": {
+      "backgroundColor": "#2B2A33",
+      "brandShorterName": "ChessCoinWeb",
+      "brandShortName": "ChessCoinWeb",
+      "brandFullName": "ChessCoin 0.32% WebBrowser",
+      "release": {
+        "displayVersion": "1.0.0-alpha",
+        "github": {
+          "repo": "OleksandrAAA/ChessCoinWeb-Firefox"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    }
+  },
+  "license": {
+    "ignoredFiles": [
+      ".*\\.json"
+    ],
+    "licenseType": "MPL-2.0"
+  },
+  "updateHostname": "liveexplorer.chesscoin032.com"
+}
