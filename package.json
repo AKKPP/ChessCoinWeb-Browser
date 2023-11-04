@@ -2,7 +2,7 @@
   "name": "browser",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/OleksandrAAA/ChessCoinWeb-Firefox.git",
+  "repository": "https://github.com/AKKPP/ChessCoinWeb-Browser.git",
   "author": "OleksandrAAA",
   "license": "MPL-2.0",
   "private": true,

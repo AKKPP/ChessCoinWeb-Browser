@@ -5,39 +5,10 @@
   "binaryName": "ChessCoinWeb",
   "version": {
     "product": "firefox",
-    "version": "118.0.2"
+    "version": "119.0"
   },
   "buildOptions": {
     "generateBranding": true
-  },
-  "addons": {
-    "ublock": {
-      "platform": "github",
-      "id": "uBlock0@raymondhill.net",
-      "repo": "gorhill/uBlock",
-      "version": "1.52.3b6",
-      "fileGlob": "uBlock0_1.52.3b6.firefox.signed.xpi"
-    },
-    "tabliss": {
-      "platform": "amo",
-      "id": "extension@tabliss.io",
-      "amoId": "850407",
-      "version": "2.6.0"
-    },
-    "firefox-qr-generator": {
-      "id": "qr-generator@browser.fushra.com",
-      "platform": "github",
-      "repo": "pulse-browser/firefox-qr-generator",
-      "version": "v0.1.0",
-      "fileGlob": "release.zip"
-    },
-    "sidebar-tabs": {
-      "id": "sidebartabs@browser.fushra.com",
-      "platform": "github",
-      "repo": "pulse-browser/sidebar-tabs",
-      "version": "v0.5.0",
-      "fileGlob": "release.zip"
-    }
   },
   "brands": {
     "stable": {
@@ -48,7 +19,7 @@
       "release": {
         "displayVersion": "1.0.0",
         "github": {
-          "repo": "OleksandrAAA/ChessCoinWeb-Firefox"
+          "repo": "AKKPP/ChessCoinWeb-Browser"
         },
         "x86": {
           "windowsMar": "windows.mar",
@@ -65,7 +36,7 @@
       "release": {
         "displayVersion": "1.0.0-alpha",
         "github": {
-          "repo": "OleksandrAAA/ChessCoinWeb-Firefox"
+          "repo": "AKKPP/ChessCoinWeb-Browser"
         },
         "x86": {
           "windowsMar": "windows.mar",
